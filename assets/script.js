@@ -7,7 +7,7 @@ var lowercaseCharacters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"
 
 var specialCharacters = ["@", "%", "+", "\\", "/", "'", "!", "#", "$", "^", "?", ":", ",", ")", "(", "}", "{", "]", "[", "~", "-", "_", "."];
 
-// Get references to the DOM elements
+// Get references to the HTML elements
 var generateBtn = document.querySelector("#generate");
 var passwordText = document.querySelector("#password");
 
