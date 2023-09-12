@@ -1,15 +1,11 @@
-# PassWord.Generator
+#Password Generator
 
 This project was created for the purpose of creating a random password for the user that will help keep their passwords secure.
 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Password.Generator screenshot](#Password.Generator-screenshot)
 
 ## Getting Started
 
