@@ -23,7 +23,7 @@ function getPasswordLength() {
     return passwordLength;
 }
 
-// Function to generate a password
+// Function to generate a password and we are added if statements to decides if the user would like to include lowercase, uppercase, numberic and special characters.
 function generatePassword() {
     var passwordLength = getPasswordLength();
     var otherCharacters = [];
@@ -46,9 +46,12 @@ function generatePassword() {
 
     if (otherCharacters.length === 0) {
         alert("You must select at least one character type.");
-        return generatePassword(); // Recursively ask for input until at least one character type is selected
+        return generatePassword(); 
+    // This code will make sure the user selects one of the accepted characters listen at the beginning of the code.
     }
 
+
+    // this for loop is going to result the code based on the criteria the user selected above.
     var password = "";
     for (var i = 0; i < passwordLength; i++) {
         var randomIndex = Math.floor(Math.random() * otherCharacters.length);
