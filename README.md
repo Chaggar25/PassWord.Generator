@@ -1,4 +1,4 @@
-#Password Generator
+<! -- #Password Generator -->
 
 This project was created for the purpose of creating a random password for the user that will help keep their passwords secure.
 
